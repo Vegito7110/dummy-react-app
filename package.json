@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A dummy project to test the cloud deployer",
   "scripts": {
-    "build": "echo '🚧 Building...' && if not exist dist mkdir dist && copy index.html dist\\index.html"
+    "build": "echo '🚧 Building Site...' && mkdir -p dist && cp index.html dist/ && echo '✅ Build Complete'"
   },
   "dependencies": {
     "fake-lib": "file:"
